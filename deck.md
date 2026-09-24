@@ -485,3 +485,103 @@ Email: michael.gleeson@setu.ie
 - Added dedicated CIA slide.
 - Expanded explanatory/background detail for each slide.
 - Preserved and incorporated all pasted source content into this enhanced deck.
+
+---
+
+## Slide 37 — Source Slide 29: Log4Shell
+**Title**
+- Log4Shell
+
+**Background/Explanation**
+- Log4Shell is a critical remote code execution vulnerability (CVE-2021-44228) in Apache Log4j, a widely used Java logging library.
+- The vulnerability enabled attackers to force vulnerable applications to load and execute malicious code from attacker-controlled servers.
+- It demonstrated how a single dependency weakness can create global exposure across cloud services, enterprise systems, and consumer products.
+- Incident response lessons include immediate asset inventory, emergency patching, virtual patching (for example, Web Application Firewall rules), and continuous third-party dependency management.
+
+---
+
+## Slide 38 — Source Slide 30: The CIA Model
+**Confidentiality**
+- Allowing only authorized subjects access to information.
+
+**Integrity**
+- Allowing only authorized subjects to modify information.
+
+**Availability**
+- Ensuring that information and resources are accessible when needed.
+
+**Background/Explanation**
+- The CIA model (Confidentiality, Integrity, Availability) is the core framework for evaluating security risk and selecting controls.
+- In practice, organizations balance all three principles rather than maximizing only one.
+- Every incident analysis should identify which CIA dimension was affected first and which dimensions were affected next.
+
+---
+
+## Slide 39 — Source Slide 31: Reverse CIA
+**Confidentiality**
+- Preventing unauthorized subjects from accessing information.
+
+**Integrity**
+- Preventing unauthorized subjects from modifying information.
+
+**Availability**
+- Preventing information and resources from being inaccessible when needed.
+
+**Background/Explanation**
+- Reverse CIA is a defensive phrasing of the same principles and is often easier to use during control design.
+- It helps teams write practical prevention requirements and measurable security outcomes.
+- For example, identity controls support confidentiality, change controls support integrity, and resilience engineering supports availability.
+
+---
+
+## Slide 40 — Source Slide 32: Using the CIA
+**Title**
+- Using the CIA
+
+**Background/Explanation**
+- This slide introduces CIA as a day-to-day analysis tool, not only as a theory model.
+- During risk reviews, analysts should map each threat scenario to CIA impact before selecting controls.
+- The approach ensures consistent prioritization across technical teams, leadership, and compliance stakeholders.
+
+---
+
+## Slide 41 — Source Slide 33: Using the CIA (Applied Questions)
+**Key Questions**
+- Think in terms of the core information security principles.
+- How does this threat impact the CIA?
+- What controls can be used to reduce the risk to CIA?
+- If we increase confidentiality, will we decrease availability?
+
+**Background/Explanation**
+- Security control decisions involve trade-offs; stronger controls in one area can reduce usability or availability.
+- Example: stricter multi-factor authentication improves confidentiality but can reduce availability if recovery processes are weak.
+- The objective is optimized risk reduction, not absolute control in one dimension.
+
+---
+
+## Slide 42 — Source Slide 34: Personal Information Security
+**Some Recommendations**
+1. Anti-virus.
+2. Automatic software updates.
+3. At least two passwords:
+   - One for important/financial institutions.
+   - Preferably a separate password for each financial institution.
+   - A different password for “fun” accounts (websites, email, etc.).
+
+**Background/Explanation**
+- Personal cyber hygiene directly reduces organizational risk because personal compromise can become enterprise compromise through credential reuse or phishing.
+- Automatic patching and strong password separation are high-impact, low-cost controls for most users.
+- This content connects personal behavior to professional incident prevention.
+
+---
+
+## Slide 43 — Summary
+**Summary Points**
+- Why Study Incident Response?
+- Some History/Background
+- Personal Information Security
+- The CIA Model
+
+**Background/Explanation**
+- The module moves from motivation, to history, to practical user behavior, and finally to a reusable analytic framework (CIA).
+- Students should be able to connect historical incidents with present-day controls, response strategy, and risk trade-offs.
